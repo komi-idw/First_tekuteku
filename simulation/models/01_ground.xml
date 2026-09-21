@@ -1,0 +1,17 @@
+<mujoco model="ground_test">
+
+    <option
+        timestep="0.002"
+        gravity="0 0 -9.81"
+    />
+
+    <worldbody>
+        <geom
+            name="ground"
+            type="plane"
+            size="5 5 0.1"
+            pos="0 0 0"
+        />
+    </worldbody>
+
+</mujoco>
