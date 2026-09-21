@@ -1,0 +1,33 @@
+<mujoco model="free_body_test">
+
+    <option
+        timestep="0.002"
+        gravity="0 0 -9.81"
+    />
+
+    <worldbody>
+
+        <geom
+            name="ground"
+            type="plane"
+            size="5 5 0.1"
+            pos="0 0 0"
+        />
+
+        <body
+            name="box_body"
+            pos="0 0 1"
+        >
+            <freejoint name="box_free"/>
+
+            <geom
+                name="box"
+                type="box"
+                size="0.1 0.1 0.1"
+                mass="1.0"
+            />
+        </body>
+
+    </worldbody>
+
+</mujoco>

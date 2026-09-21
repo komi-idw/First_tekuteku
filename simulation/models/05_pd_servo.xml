@@ -1,0 +1,62 @@
+<mujoco model="pd_servo_test">
+
+    <compiler angle="radian"/>
+
+    <option
+        timestep="0.002"
+        gravity="0 0 0"
+    />
+
+    <worldbody>
+
+        <body
+            name="pendulum_base"
+            pos="0 0 1.5"
+        >
+
+            <geom
+                name="base_visual"
+                type="sphere"
+                size="0.06"
+                mass="0.1"
+                contype="0"
+                conaffinity="0"
+            />
+
+            <body
+                name="pendulum_link"
+                pos="0 0 0"
+            >
+
+                <joint
+                    name="pendulum_joint"
+                    type="hinge"
+                    axis="0 1 0"
+                    limited="true"
+                    range="-3.14 3.14"
+                    damping="0"
+                />
+
+                <geom
+                    name="link"
+                    type="capsule"
+                    fromto="0 0 0 0 0 -0.8"
+                    size="0.04"
+                    mass="1.0"
+                />
+
+            </body>
+
+        </body>
+
+    </worldbody>
+
+    <actuator>
+        <motor
+            name="pendulum_motor"
+            joint="pendulum_joint"
+            gear="1"
+        />
+    </actuator>
+
+</mujoco>
