@@ -1,0 +1,122 @@
+{
+  "left_hip_yaw": {
+    "axis_robot": [
+      0,
+      0,
+      1
+    ],
+    "cad_axis_in_robot_frame": [
+      -0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "left_hip_roll": {
+    "axis_robot": [
+      1,
+      0,
+      0
+    ],
+    "cad_axis_in_robot_frame": [
+      1.0,
+      -0.0,
+      -0.0
+    ]
+  },
+  "left_hip_pitch": {
+    "axis_robot": [
+      0,
+      1,
+      0
+    ],
+    "cad_axis_in_robot_frame": [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  },
+  "left_knee_pitch": {
+    "axis_robot": [
+      0,
+      1,
+      0
+    ],
+    "cad_axis_in_robot_frame": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "left_ankle_pitch": {
+    "axis_robot": [
+      0,
+      1,
+      0
+    ],
+    "cad_axis_in_robot_frame": [
+      0.0,
+      1.0,
+      -0.0
+    ]
+  },
+  "right_hip_yaw": {
+    "axis_robot": [
+      0,
+      0,
+      1
+    ],
+    "cad_axis_in_robot_frame": [
+      -0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "right_hip_roll": {
+    "axis_robot": [
+      1,
+      0,
+      0
+    ],
+    "cad_axis_in_robot_frame": [
+      1.0,
+      0.0,
+      -0.0
+    ]
+  },
+  "right_hip_pitch": {
+    "axis_robot": [
+      0,
+      1,
+      0
+    ],
+    "cad_axis_in_robot_frame": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "right_knee_pitch": {
+    "axis_robot": [
+      0,
+      1,
+      0
+    ],
+    "cad_axis_in_robot_frame": [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  },
+  "right_ankle_pitch": {
+    "axis_robot": [
+      0,
+      1,
+      0
+    ],
+    "cad_axis_in_robot_frame": [
+      0.0,
+      -1.0,
+      -0.0
+    ]
+  }
+}
